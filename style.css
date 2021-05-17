@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to left, rgba(249,174,240,1) 6.5%, rgba(139,144,250,1) 97.1% );
+  margin: 10%
+}
+
+
+#search-bar-container, #result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result-container {
+  margin: 10%;
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+}
+
+.result-all-list {
+  width: 200px;
+}
+
+.result-li {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.result-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-text {
+  margin: 0;
+  font-size: 15px;
+}
+
+.artist-text {
+  font-weight: bold;
+}
+
+.result-album-cover {
+  width: 50px;
+  height: 50px;
+}
